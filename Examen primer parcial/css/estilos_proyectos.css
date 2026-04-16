@@ -1,4 +1,3 @@
-/* --- 1. ESTILOS BASE --- */
 body { 
     background-color: #d4d0c8; 
     font-family: sans-serif; 
@@ -16,7 +15,6 @@ body {
     padding-bottom: 40px;
 }
 
-/* --- 2. ENCABEZADOS --- */
 .barra-titulo {
     background: black; 
     color: white; 
@@ -35,7 +33,6 @@ body {
     border-bottom: 1px solid #000;
 }
 
-/* --- 3. BOTONES (ESTILO WINDOWS) --- */
 .btn-win-azul {
     background: linear-gradient(to bottom, #7fb2d8, #2c5f88);
     color: white;
@@ -48,7 +45,7 @@ body {
     width: 150px;
     text-align: left;
     margin-bottom: 4px;
-    display: block; /* Para que ocupen todo el ancho de su columna */
+    display: block;
 }
 
 .btn-win-azul-resaltado {
@@ -72,7 +69,6 @@ body {
     box-shadow: 1px 1px 0 #fff inset;
 }
 
-/* --- 4. FORMULARIOS (PANTALLA SEGURIDAD) --- */
 .contenido-form { 
     padding: 20px; 
     border: 1px solid #999; 
@@ -108,7 +104,6 @@ input[type="text"], input[type="password"] {
     border-top: 1px solid #ccc;
 }
 
-/* --- 5. ESTRUCTURA PANTALLA RECURSOS (CAMBIOS AQUÍ) --- */
 .cuerpo-recursos { 
     display: flex; 
     padding: 20px;
@@ -117,13 +112,12 @@ input[type="text"], input[type="password"] {
 
 .panel-izquierdo { width: fit-content; }
 
-/* El fieldset es ahora un contenedor flex */
 fieldset.grupo-cierre-contenedor {
     border: 1px solid #7a9db9;
     padding: 10px;
     margin-bottom: 15px;
-    display: flex; /* Ponemos cosas una al lado de la otra */
-    gap: 15px; /* Espacio entre botones y cuadros */
+    display: flex;
+    gap: 15px;
     width: fit-content;
 }
 
@@ -139,7 +133,6 @@ legend {
     gap: 5px;
 }
 
-/* Cuadros de la derecha */
 .input-gestion { 
     width: 60px; 
     text-align: center; 
@@ -150,8 +143,8 @@ legend {
 
 .cuadro-azul-claro {
     width: 60px;
-    height: 40px; /* Ajusta el alto como quieras */
-    background-color: #e2efff; /* El color azulito claro */
+    height: 40px;
+    background-color: #e2efff;
     border: 1px solid #7a9db9;
 }
 
@@ -163,7 +156,6 @@ legend {
 
 .panel-derecho { flex-grow: 1; }
 
-/* --- 6. TRUCO DEL POP-UP (FOXPRO) --- */
 .contenedor-migrador {
     position: relative;
     display: inline-block;
@@ -208,7 +200,6 @@ legend {
     gap: 10px; 
 }
 
-/* --- 7. EXTRAS --- */
 .salir-der { 
     position: absolute;
     bottom: 10px;
